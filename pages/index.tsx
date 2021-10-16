@@ -10,15 +10,15 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-blue-500 font-bold">
+        <h1 className="text-blue-500 font-bold font-serif text-3xl">
           Welcome to the tailwindcss variant!
         </h1>
 
-        <p>Get started by coding</p>
+        <p className="font-serif font-light text-2xl">Get started by coding</p>
       </main>
 
       <footer>
-        <p>A next.ts footer</p>
+        <p className="font-serif font-medium text-3xl">A next.ts footer</p>
       </footer>
     </div>
   );
