@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 export default function Home() {
+  
   return (
     <div>
       <Head>
@@ -9,12 +10,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1 className="text-blue-500 font-bold font-serif text-3xl">
-          Welcome to the tailwindcss variant!
-        </h1>
-
-        <p className="font-serif font-light text-2xl">Get started by coding</p>
+      <main className=" dark:bg-gray-900 flex max-w-screen min-h-screen items-center justify-center">
+        <div className="flex flex-col dark:bg-gray-700 dark:text-gray-100 items-center font-serif w-1/3 justify-center rounded-3xl h-64 bg-gray-300 text-gray-700">
+          <h1 className="text-3xl  font-bold mb-4">
+            Tailwind darkmode
+          </h1>
+          <button className="w-24 font-sans hover:bg-red-500 rounded-lg h-12 bg-red-400">{"darkmode"}</button>
+        </div>
       </main>
 
       <footer>
